@@ -1,0 +1,7 @@
+print("\n".join([" ".join(["1" if i == j else "0" for j in range(5)]) for i in range(5)]))
+print()
+print("\n".join([" ".join(["1" if i == j or i == 4 - j else "0" for j in range(5)]) for i in range(5)]))
+print()
+print("\n".join([" ".join([str(i + j) for j in range(5)]) for i in range(5)]))
+print()
+print("\n".join([" ".join([["★", "☆", "✪", "✵", "✯", "٭"][max(abs(5 - i), abs(5 - j))] for j in range(1, 10)]) for i in range(1, 10)]))
